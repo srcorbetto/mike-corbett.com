@@ -1,16 +1,248 @@
+/* 
+Dark Purple: #340093
+Light Purple: #6700fb
+Pink: #ff2a66
+White: #fff
+Shadow: rgba(0, 0, 0, 0.25)
+*/
+
+h1, h2, h3, h4, h5, h6, p, button {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .13em;
+  font-size: 1.3em;
+}
+
+button {
+  border: none;
+  font-weight: 600;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1  {
+  color: #fff;
+  font-weight: 600;
+}
+
+p {
+  color: #ff2a66;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: auto;
+}
+
+.social-icons a {
+  color: #ff2a66;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 .bg {
-	min-height: 98vh;
-	/*background: url(../images/hypnotize.png) repeat;*/
+  width: 100%;
+  min-height: 100vh;
+  background: #340093;
+  text-align: center;
 }
 
-.navbar-nav .nav-item+.nav-item {
-    margin-left: 0px;
+/* INDEX PAGE
+====================================================== */
+
+iframe {
+  position: absolute;
+  top: 15px;
+  right: 15px;
 }
 
-.sectionTitle {
-	padding-top: 130px;
+.title {
+  font-size: 4em;
+  margin-top: 50px;
 }
 
-.form-control {
-    padding: 0.75rem 1rem;
- }
+.main-project-button, .main-contact-button {
+  padding: 15px 45px;
+  display: block;
+  margin: 25px auto;
+  transition: .25s;
+}
+
+.main-project-button:hover, .main-contact-button:hover {
+  background: #ff2a66;;
+  color: #fff;
+}
+
+.main-project-button {
+  background: #fff;
+  color: #6700fb;
+}
+
+.main-contact-button {
+  background: #6700fb;
+  color: #fff;
+}
+
+.social-icons {
+  /* color: #6700fb; */
+  color: #ff2a66;
+}
+
+/* PROJECTS PAGE
+====================================================== */
+
+.spacer {
+  width: 100%;
+  height: 100px;
+}
+
+.nav-holder {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.navigation {
+  width: 100%;
+  background: #340093;
+  text-align: left;
+  position: relative;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ff2a66;
+}
+
+.navigation a:hover {
+  text-decoration: none;
+}
+
+.nav-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.25em;
+  margin: 0;
+  padding-left: 20px;
+  display: inline;
+  float: left;
+}
+
+.nav-social {
+  color: #ff2a66;
+  display: inline;
+  float: right;
+  padding-right: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  top: 7px;
+}
+
+.nav-contact {
+  background: #fff;
+  color: #6700fb;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  padding: 10px 20px;
+  font-size: 1.1em;
+}
+
+.nav-shadow {
+  width: 100%;
+  height: 12px;
+  background: transparent;
+  transition: .25s;
+}
+
+.card-holder {
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+.project-thumbnail {
+  width: 18%;
+  border-radius: 50%;
+  vertical-align: top;
+  margin-right: 2%;
+}
+
+.project-info {
+  width: 75%;
+  display: inline-block;
+  text-align: left;
+  background: #6700fb;
+  padding: 15px;
+}
+
+.project-info h3 {
+  font-weight: 600;
+  color: #fff;
+}
+
+.description {
+  font-weight: 300;
+  color: #fff;
+  font-size: .8em;
+}
+
+.project-info button {
+  font-weight: 600;
+  background: #ff2a66;
+  color: #fff;
+  padding: 7px 15px;
+  font-size: .8em;
+  transition: .25s;
+}
+
+.project-info button:hover {
+  background: #fff;
+  color: #ff2a66;
+}
+
+.technologies {
+  color: #fff;
+  font-weight: 600;
+  font-size: .8em;
+}
+
+@media (max-width: 575px) {
+  .title {
+    margin-top: 25px;
+    font-size: 3em;
+  }
+
+  .nav-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.60em;
+    margin: 0;
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .nav-social {
+    padding-right: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    top: 0px;
+  }
+  
+  .nav-shadow {
+    width: 100%;
+    height: 12px;
+    background: transparent;
+    transition: .25s;
+  }
+
+}
