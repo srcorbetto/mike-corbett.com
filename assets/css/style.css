@@ -1,8 +1,8 @@
 /* 
 MAIN COLORS
-Dark Purple: #340093
-Light Purple: #6700fb
-Pink: #ff2a66
+Dark Purple: #2c0d64 #2c0d64
+Light Purple: #5a12c2 #5a12c2
+Pink: #cf426a #cf426a
 White: #fff
 Shadow: rgba(0, 0, 0, 0.25)
 */
@@ -33,7 +33,7 @@ h1  {
 }
 
 p {
-  color: #ff2a66;
+  color: #cf426a;
   font-weight: 300;
 }
 
@@ -43,7 +43,7 @@ a {
 }
 
 .social-icons a {
-  color: #ff2a66;
+  color: #cf426a;
 }
 
 a:hover {
@@ -53,7 +53,7 @@ a:hover {
 .bg {
   width: 100%;
   min-height: 100vh;
-  background: #340093;
+  background: #2c0d64;
   text-align: center;
 }
 
@@ -79,23 +79,23 @@ iframe {
 }
 
 .main-project-button:hover, .main-contact-button:hover {
-  background: #ff2a66;;
+  background: #cf426a;;
   color: #fff;
 }
 
 .main-project-button {
   background: #fff;
-  color: #6700fb;
+  color: #5a12c2;
 }
 
 .main-contact-button {
-  background: #6700fb;
+  background: #5a12c2;
   color: #fff;
 }
 
 .social-icons {
-  /* color: #6700fb; */
-  color: #ff2a66;
+  /* color: #5a12c2; */
+  color: #cf426a;
 }
 
 /* PROJECTS PAGE
@@ -115,14 +115,14 @@ iframe {
 
 .navigation {
   width: 100%;
-  background: #340093;
+  background: #2c0d64;
   text-align: left;
   position: relative;
 }
 
 .navigation a {
   text-decoration: none;
-  color: #ff2a66;
+  color: #cf426a;
 }
 
 .navigation a:hover {
@@ -140,7 +140,7 @@ iframe {
 }
 
 .nav-social {
-  color: #ff2a66;
+  color: #cf426a;
   display: inline;
   float: right;
   padding-right: 20px;
@@ -151,7 +151,7 @@ iframe {
 
 .nav-contact {
   background: #fff;
-  color: #6700fb;
+  color: #5a12c2;
   position: absolute;
   right: 15px;
   top: 15px;
@@ -182,7 +182,7 @@ iframe {
   width: 75%;
   display: inline-block;
   text-align: left;
-  background: #6700fb;
+  background: #5a12c2;
   padding: 15px;
 }
 
@@ -199,7 +199,7 @@ iframe {
 
 .project-info button {
   font-weight: 600;
-  background: #ff2a66;
+  background: #cf426a;
   color: #fff;
   padding: 7px 15px;
   font-size: .8em;
@@ -208,7 +208,7 @@ iframe {
 
 .project-info button:hover {
   background: #fff;
-  color: #ff2a66;
+  color: #cf426a;
 }
 
 .technologies {
