@@ -1,8 +1,8 @@
 /* 
 MAIN COLORS
-Dark Purple: #2c0d64 #2c0d64
-Light Purple: #5a12c2 #5a12c2
-Pink: #cf426a #cf426a
+Dark Purple: #1B2021 #1B2021
+Light Purple: #30343F #30343F
+Pink: #EF476F #EF476F
 White: #fff
 Shadow: rgba(0, 0, 0, 0.25)
 */
@@ -33,7 +33,7 @@ h1  {
 }
 
 p {
-  color: #cf426a;
+  color: #EF476F;
   font-weight: 300;
 }
 
@@ -43,7 +43,7 @@ a {
 }
 
 .social-icons a {
-  color: #cf426a;
+  color: #EF476F;
 }
 
 a:hover {
@@ -53,7 +53,7 @@ a:hover {
 .bg {
   width: 100%;
   min-height: 100vh;
-  background: #2c0d64;
+  background: #1B2021;
   text-align: center;
 }
 
@@ -79,23 +79,23 @@ iframe {
 }
 
 .main-project-button:hover, .main-contact-button:hover {
-  background: #cf426a;;
+  background: #EF476F;;
   color: #fff;
 }
 
 .main-project-button {
   background: #fff;
-  color: #5a12c2;
+  color: #30343F;
 }
 
 .main-contact-button {
-  background: #5a12c2;
+  background: #30343F;
   color: #fff;
 }
 
 .social-icons {
-  /* color: #5a12c2; */
-  color: #cf426a;
+  /* color: #30343F; */
+  color: #EF476F;
 }
 
 /* PROJECTS PAGE
@@ -115,14 +115,14 @@ iframe {
 
 .navigation {
   width: 100%;
-  background: #2c0d64;
+  background: #1B2021;
   text-align: left;
   position: relative;
 }
 
 .navigation a {
   text-decoration: none;
-  color: #cf426a;
+  color: #EF476F;
 }
 
 .navigation a:hover {
@@ -140,7 +140,7 @@ iframe {
 }
 
 .nav-social {
-  color: #cf426a;
+  color: #EF476F;
   display: inline;
   float: right;
   padding-right: 20px;
@@ -151,7 +151,7 @@ iframe {
 
 .nav-contact {
   background: #fff;
-  color: #5a12c2;
+  color: #30343F;
   position: absolute;
   right: 15px;
   top: 15px;
@@ -182,7 +182,7 @@ iframe {
   width: 75%;
   display: inline-block;
   text-align: left;
-  background: #5a12c2;
+  background: #30343F;
   padding: 15px;
 }
 
@@ -193,13 +193,13 @@ iframe {
 
 .description {
   font-weight: 300;
-  color: #fff;
+  color: #FFD9DA;
   font-size: .8em;
 }
 
 .project-info button {
   font-weight: 600;
-  background: #cf426a;
+  background: #EF476F;
   color: #fff;
   padding: 7px 15px;
   font-size: .8em;
@@ -208,7 +208,7 @@ iframe {
 
 .project-info button:hover {
   background: #fff;
-  color: #cf426a;
+  color: #EF476F;
 }
 
 .technologies {
