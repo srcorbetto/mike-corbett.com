@@ -53,7 +53,7 @@ a:hover {
 .bg {
   width: 100%;
   min-height: 100vh;
-  background: #1B2021;
+  background: #1B2021 url(https://media.giphy.com/media/NzSUEgbTWB7TW/giphy.gif) repeat;
   text-align: center;
 }
 
@@ -115,7 +115,7 @@ iframe {
 
 .navigation {
   width: 100%;
-  background: #1B2021;
+  background: #1B2021 url(https://media.giphy.com/media/NzSUEgbTWB7TW/giphy.gif) repeat;
   text-align: left;
   position: relative;
 }
