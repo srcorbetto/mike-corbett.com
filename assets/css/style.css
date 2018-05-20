@@ -1,8 +1,10 @@
 /* 
 MAIN COLORS
-Dark Purple: #1B2021 #1B2021
-Light Purple: #30343F #30343F
-Pink: #EF476F #EF476F
+================================
+Dark Purple: #1B2021
+Light Purple: #30343F
+Pink: #EF476F
+Light Pink: #FFD9DA
 White: #fff
 Shadow: rgba(0, 0, 0, 0.25)
 */
@@ -175,11 +177,27 @@ iframe {
   margin-bottom: 55px;
 }
 
-.project-thumbnail {
+.project-thumbnail-holder {
   width: 18%;
   border-radius: 50%;
   vertical-align: top;
   margin-right: 2%;
+  display: inline-block;
+}
+
+/* Targets all images */
+.project-thumbnail-holder img {
+  margin-bottom: 15px;
+}
+
+.project-thumbnail-logo {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.project-thumbnail-badge {
+  width: 70%;
+  /* animation: badge-jiggle 2s infinite linear; */
 }
 
 .project-info {
@@ -193,6 +211,11 @@ iframe {
 .project-info h3 {
   font-weight: 600;
   color: #fff;
+}
+
+.example {
+  width: 100%;
+  padding-bottom: 1rem;
 }
 
 .description {
@@ -219,6 +242,12 @@ iframe {
   color: #fff;
   font-weight: 600;
   font-size: .8em;
+}
+
+@media (max-width: 1024px) {
+  .project-thumbnail-badge {
+    width: 85%;
+  }
 }
 
 @media (max-width: 575px) {
@@ -250,4 +279,22 @@ iframe {
     transition: .25s;
   }
 
+}
+
+/* ANIMATIONS
+====================================================== */
+
+@keyframes badge-jiggle {
+  25% {
+    transform: translateX(3px);
+  }
+  /* 50% {
+    transform: translateX(0px);
+  } */
+  75% {
+    transform: translateX(-7px);
+  }
+  /* 100% {
+    transform: translateX(0px);
+  } */
 }
