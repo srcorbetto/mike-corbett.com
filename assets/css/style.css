@@ -244,6 +244,12 @@ iframe {
   font-size: .8em;
 }
 
+.true-that-image {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
 @media (max-width: 1024px) {
   .project-thumbnail-badge {
     width: 85%;
@@ -277,6 +283,10 @@ iframe {
     height: 12px;
     background: transparent;
     transition: .25s;
+  }
+
+  .true-that-image {
+    width: 100%;
   }
 
 }
