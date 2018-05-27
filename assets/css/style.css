@@ -44,11 +44,6 @@ p {
   font-weight: 300;
 }
 
-/* a {
-  text-decoration: none;
-  color: auto;
-} */
-
 .social-icons a {
   color: #EF476F;
 }
@@ -57,245 +52,8 @@ a:hover {
   text-decoration: none;
 }
 
-.bg {
-  width: 100%;
-  min-height: 100vh;
-  background-color: #1B2021;
-  background-image: url('https://media.giphy.com/media/NzSUEgbTWB7TW/giphy.gif');
-  background-repeat: repeat;
-  text-align: center;
-}
-
 /* INDEX PAGE
 ====================================================== */
-
-.social-icons {
-  /* color: #30343F; */
-  color: #EF476F;
-}
-
-/* PROJECTS PAGE
-====================================================== */
-
-.menu {
-  text-align: center;
-  text-decoration: none;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  transition: all .5s ease;
-  display: none;
-}
-
-.menu li {
-  padding: 10px;
-  font-weight: 600;
-}
-
-.menu-text {
-  color: #fff;
-  transition: .25s;
-}
-
-.menu-text:hover {
-  color: #1B2021;
-}
-
-.spacer {
-  width: 100%;
-  height: 0px;
-}
-
-.nav-holder {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-}
-
-.navigation {
-  width: 100%;
-  background-color: #1B2021;
-  background-image: url('https://media.giphy.com/media/NzSUEgbTWB7TW/giphy.gif');
-  background-repeat: repeat;
-  text-align: left;
-  position: relative;
-  transition: .5s;
-  min-height: 0;
-}
-
-.nav-expand {
-  min-height: 100vh;
-  background: #EF476F;
-}
-
-.navigation a {
-  text-decoration: none;
-  color: #EF476F;
-}
-
-.navigation a:hover {
-  text-decoration: none;
-}
-
-.nav-title {
-  color: #fff;
-  font-weight: 600;
-  font-size: 2.25em;
-  margin: 0;
-  padding-left: 20px;
-  display: inline;
-  float: left;
-}
-
-.nav-social {
-  color: #fff;
-  display: inline;
-  float: right;
-  padding-right: 20px;
-  margin-bottom: 0px;
-  position: relative;
-  top: 7px;
-}
-
-.nav-contact {
-  background: #fff;
-  color: #30343F;
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  padding: 10px 20px;
-  font-size: 1.1em;
-}
-
-.nav-shadow {
-  width: 100%;
-  height: 12px;
-  background: transparent;
-  transition: .25s;
-}
-
-.card-holder {
-  width: 100%;
-  margin-bottom: 55px;
-}
-
-.project-thumbnail-holder {
-  width: 18%;
-  border-radius: 50%;
-  vertical-align: top;
-  margin-right: 2%;
-  display: inline-block;
-}
-
-/* Targets all images */
-.project-thumbnail-holder img {
-  margin-bottom: 15px;
-}
-
-.project-thumbnail-logo {
-  width: 100%;
-  border-radius: 50%;
-}
-
-.project-thumbnail-badge {
-  width: 70%;
-  /* animation: badge-jiggle 2s infinite linear; */
-}
-
-.project-info {
-  width: 75%;
-  display: inline-block;
-  text-align: left;
-  background: #30343F;
-  padding: 15px;
-}
-
-.project-info h3 {
-  font-weight: 600;
-  color: #fff;
-}
-
-.example {
-  width: 100%;
-  padding-bottom: 1rem;
-}
-
-.description {
-  font-weight: 300;
-  color: #FFD9DA;
-  font-size: .8em;
-}
-
-.project-info button {
-  font-weight: 600;
-  background: #EF476F;
-  color: #fff;
-  padding: 7px 15px;
-  font-size: .8em;
-  transition: .25s;
-}
-
-.project-info button:hover {
-  background: #fff;
-  color: #EF476F;
-}
-
-.technologies {
-  color: #fff;
-  font-weight: 600;
-  font-size: .8em;
-}
-
-.true-that-image {
-  width: 70%;
-  display: block;
-  margin: 0 auto;
-}
-
-@media (max-width: 1024px) {
-  .project-thumbnail-badge {
-    width: 85%;
-  }
-}
-
-@media (max-width: 575px) {
-  .title {
-    margin-top: 25px;
-    font-size: 3em;
-  }
-
-  .nav-title {
-    color: #fff;
-    font-weight: 600;
-    font-size: 1.60em;
-    margin: 0;
-    text-align: left;
-    padding-left: 20px;
-  }
-  
-  .nav-social {
-    padding-right: 20px;
-    margin-bottom: 0px;
-    position: relative;
-    top: 0px;
-  }
-  
-  .nav-shadow {
-    width: 100%;
-    height: 12px;
-    background: transparent;
-    transition: .25s;
-  }
-
-  .true-that-image {
-    width: 100%;
-  }
-
-}
-
-/* TEST */
-/* ================================================= */
 
 .mobile-btn {
   width: 115px;
@@ -424,6 +182,93 @@ a:hover {
   color: #EF476F;
 }
 
+
+/* PROJECTS PAGE
+====================================================== */
+
+.spacer {
+  width: 100%;
+  height: 0px;
+}
+
+.card-holder {
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+.project-thumbnail-holder {
+  width: 18%;
+  border-radius: 50%;
+  vertical-align: top;
+  margin-right: 2%;
+  display: inline-block;
+}
+
+/* Targets all images */
+.project-thumbnail-holder img {
+  margin-bottom: 15px;
+}
+
+.project-thumbnail-logo {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.project-thumbnail-badge {
+  width: 70%;
+  /* animation: badge-jiggle 2s infinite linear; */
+}
+
+.project-info {
+  width: 75%;
+  display: inline-block;
+  text-align: left;
+  background: #30343F;
+  padding: 15px;
+}
+
+.project-info h3 {
+  font-weight: 600;
+  color: #fff;
+}
+
+.example {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.description {
+  font-weight: 300;
+  color: #FFD9DA;
+  font-size: .8em;
+}
+
+.project-info button {
+  font-weight: 600;
+  background: #EF476F;
+  color: #fff;
+  padding: 7px 15px;
+  font-size: .8em;
+  transition: .25s;
+}
+
+.project-info button:hover {
+  background: #fff;
+  color: #EF476F;
+}
+
+.technologies {
+  color: #fff;
+  font-weight: 600;
+  font-size: .8em;
+}
+
+.true-that-image {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
 @media (max-width: 1200px) {
 
   .mobile-btn {
@@ -524,6 +369,12 @@ a:hover {
 
 }
 
+@media (max-width: 1024px) {
+  .project-thumbnail-badge {
+    width: 85%;
+  }
+}
+
 @media (max-width: 768px) {
 
   .arrow-left {
@@ -588,6 +439,18 @@ a:hover {
     padding: 10px 15px;
     color: #FFD9DA;
     font-size: 1.1em;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .title {
+    margin-top: 25px;
+    font-size: 3em;
+  }
+
+  .true-that-image {
+    width: 100%;
   }
 
 }
