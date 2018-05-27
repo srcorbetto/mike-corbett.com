@@ -10,7 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600" rel="stylesheet">
 
 	<!-- Font Awesome -->
-  <script src="https://use.fontawesome.com/51fe8593c0.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -23,25 +23,26 @@
 </head>
 <body>
 
-  <!-- Navbar -->
-  <div class="nav-holder">
-      <nav class="navigation">
-        <a href="index.html"><h3 class="nav-title pt-3 pb-3">MC</h3></a>
-        <p class="nav-social pt-3 pb-1">
-          <a target="_blank" href="mailto:srcorbetto@gmail.com"><span style="color: #fff">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-          </span></a>
-          <a target="_blank" href="https://github.com/srcorbetto"><i class="fa fa-github" aria-hidden="true"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/in/mike-corbett-16162286/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        </p>
-        <div class="clear" style="clear:both"></div>
-        <!-- <button class="nav-contact">Contact</button> -->
-      </nav>
-      <div class="nav-shadow"></div>
-  </div>
+  <!-- Mobile Dropdown -->
+  <div class="mobile-btn">
+      <!-- <img src="http://via.placeholder.com/25x20" alt=""> -->
+      <p>MENU</p>
+    </div>
+  
+    <!-- Sidebar -->
+    <div class="menu-bar">
+      <div class="menu-holder">
+          <p><a href="index.html"><i class="fas fa-home"></i> Home</a></p>
+          <p><a href="projects.html"><i class="fas fa-code"></i> Projects</a></p>
+          <p><a href="#"><i class="fas fa-file-alt"></i> Resume</a></p>
+          <p><a target="_blank" href="mailto:srcorbetto@gmail.com"><i class="fas fa-envelope"></i> Email</a></p>
+          <p><a target="_blank" href="https://github.com/srcorbetto"><i class="fab fa-github"></i> Github</a></p>
+          <p><a target="_blank" href="https://www.linkedin.com/in/mike-corbett-16162286/"><i class="fab fa-linkedin-in"></i> LinkedIn</a></p>
+      </div>
+    </div>
 
 	<!-- Container -->
-	<div class="container-fluid bg">
+	<div class="container-fluid bg-2">
 
     <!-- Spacer Row -->
     <div class="row">
@@ -50,8 +51,8 @@
       </div>
     </div>
 
-    <!-- Homepage Content -->
-    <div class="row">
+    <!-- Project Content -->
+    <div class="row pt-5">
 
       <!-- Row 1 -->
       <div class="col-xs-12 offset-xs-0 col-md-5 offset-md-1">
@@ -63,7 +64,6 @@
                 <img src="assets/img/badges/badge-mongodb.svg" alt="" class="project-thumbnail-badge">
                 <img src="assets/img/badges/badge-node.svg" alt="" class="project-thumbnail-badge">
                 <img src="assets/img/badges/badge-react.svg" alt="" class="project-thumbnail-badge">
-                <img src="assets/img/badges/badge-sass.svg" alt="" class="project-thumbnail-badge">
                 <img src="assets/img/badges/badge-socket.svg" alt="" class="project-thumbnail-badge">
             </div>
             <div class="project-info">
