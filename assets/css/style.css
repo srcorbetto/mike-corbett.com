@@ -55,6 +55,15 @@ a:hover {
 /* INDEX PAGE
 ====================================================== */
 
+#aframe {
+  color: #EF476F;
+}
+
+#aframe:hover {
+  color: #EF476F;
+  text-decoration: underline;
+}
+
 .mobile-btn {
   width: 115px;
   height: 50px;
